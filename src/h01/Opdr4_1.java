@@ -15,6 +15,8 @@ public void init() {
 
   public void paint(Graphics g) {
     g.setColor(Color.blue);
-    g.drawPolygon(new int[] {0, 20, 40}, new int[] {100, 65, 100}, 3);
+    g.drawLine(30, 80, 55, 50);
+    g.drawLine(55, 50, 80, 80);
+    g.drawLine(30, 80, 80, 80);
   }
 }
