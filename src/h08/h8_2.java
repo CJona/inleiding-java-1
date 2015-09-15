@@ -10,10 +10,10 @@ public class h8_2 extends Applet {
     Button vrouw;
     Button mleerlingen;
     Button vleerlingen;
-    int mannen = 20;
-    int vrouwen = 17;
-    int manleerlingen = 31;
-    int vrouwleerlingen = 34;
+    int mannen = 0;
+    int vrouwen = 0;
+    int manleerlingen = 0;
+    int vrouwleerlingen = 0;
     String schermtext = "";
     String schermtext2 = "";
     String schermtext3 = "";
@@ -46,6 +46,7 @@ public class h8_2 extends Applet {
 	
     class KnopListener implements ActionListener	{
         public void actionPerformed( ActionEvent e ) {
+        	mannen++;
         	schermtext = "Aantal mannen = " + mannen ;
         	schermtext2 = "Aantal vrouwen = " + vrouwen ;
         	schermtext3 = "Aantal mannelijke leerlingen = " + manleerlingen ;
@@ -56,6 +57,7 @@ public class h8_2 extends Applet {
     }
     class KnopListener2 implements ActionListener	{
         public void actionPerformed( ActionEvent e ) {
+        	vrouwen++;
         	schermtext = "Aantal mannen = " + mannen ;
         	schermtext2 = "Aantal vrouwen = " + vrouwen ;
         	schermtext3 = "Aantal mannelijke leerlingen = " + manleerlingen ;
@@ -66,6 +68,7 @@ public class h8_2 extends Applet {
     }
     class KnopListener3 implements ActionListener	{
         public void actionPerformed( ActionEvent e ) {
+        	manleerlingen++;
         	schermtext = "Aantal mannen = " + mannen ;
         	schermtext2 = "Aantal vrouwen = " + vrouwen ;
         	schermtext3 = "Aantal mannelijke leerlingen = " + manleerlingen ;
@@ -76,6 +79,7 @@ public class h8_2 extends Applet {
     }
     class KnopListener4 implements ActionListener	{
         public void actionPerformed( ActionEvent e ) {
+        	vrouwleerlingen++;
         	schermtext = "Aantal mannen = " + mannen ;
         	schermtext2 = "Aantal vrouwen = " + vrouwen ;
         	schermtext3 = "Aantal mannelijke leerlingen = " + manleerlingen ;
