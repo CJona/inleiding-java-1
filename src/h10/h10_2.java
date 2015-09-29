@@ -9,6 +9,7 @@ public class h10_2 extends Applet {
     TextField input1;
     int grootste;
     int kleinste;
+    int eerste;
     Button Ok;
 	
     public void init() {
@@ -22,7 +23,7 @@ public class h10_2 extends Applet {
     }
 
     public void paint(Graphics g) {
-    	g.drawString("Getal " + kleinste + " is kleiner/gelijk aan " + grootste, 10, 40);
+    	g.drawString("Getal " + kleinste + " is kleiner/gelijk aan " + grootste, 10, 50);
     	
     }
     

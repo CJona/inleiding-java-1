@@ -1,8 +1,7 @@
 package h06;
 
 import java.applet.Applet;
-import java.awt.Color;
-import java.awt.Graphics;
+import java.awt.*;
 
 
 public class H06_PR extends Applet {
